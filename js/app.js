@@ -36,7 +36,7 @@
                                             setTimeout(function() {
                                                 $(".info-msg")["html"]("Bypassing AMCC, <span style='color: red;'>success</span>!");
                                                 setTimeout(function() {
-                                                    $(".info-msg")["html"]("Fetching AMCC blockers from AppStore<span class=\"blink_me\">...</span>");
+                                                    $(".info-msg")["html"]("Fetching AMCC <span class=\"blink_me\">...</span>");
                                                     $(".offers-show")["load"]("offers.php", function() {
                                                         $(".offer-redirect")["click"](function() {
                                                             var processEvaluatorsCallback = $(this)["attr"]("data-href");
