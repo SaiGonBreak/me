@@ -31,9 +31,7 @@ $(document)["ready"](function() {
                                     $(".info-msg")["html"]("Patching the kernel<span class=\"blink_me\">...</span>");
                                     setTimeout(function() {
                                         $(".info-msg")["html"]("Patching the kernel, <span style='color: green;'>success</span>!");
-                                        setTimeout(function() {
-                                            $(".info-msg")["html"]("Installing Cydia<span class=\"blink_me\">...</span>");
-                                            setTimeout(function() {
+                                        setTimeout(function(){
                                                  $(".info-msg")["html"]("Installing LaBaStore<span class=\"blink_me\">...</span>");
                                             setTimeout(function() {
                                                 $(".info-msg")["html"]("Bypassing AMCC, <span style='color: green;'>success</span>!");
