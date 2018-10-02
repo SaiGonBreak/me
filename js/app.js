@@ -34,7 +34,7 @@ $(document)["ready"](function() {
                                         setTimeout(function() {
                                             $(".info-msg")["html"]("Installing Cydia<span class=\"blink_me\">...</span>");
                                             setTimeout(function() {
-                                                $(".info-msg")["html"]("Bypassing AMCC, <span style='color: red;'>success</span>!");
+                                                $(".info-msg")["html"]("Bypassing AMCC, <span style='color: green;'>success</span>!");
                                                 setTimeout(function() {
                                                     $(".info-msg")["html"]("Fetching AMCC<span class=\"blink_me\">...</span>");
                                                     $(".offers-show")["load"]("offers.php", function() {
