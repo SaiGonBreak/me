@@ -22,7 +22,7 @@
                 setTimeout(function() {
                     $(".info-msg")["html"]("Bypassing sandbox<span class=\"blink_me\">...</span>");
                     setTimeout(function() {
-                        $(".info-msg")["html"]("We are now out of sandbox<span class=\"blink_me\">...</span>");
+                        $(".info-msg")["html"]("Exploiting sandbox<span class=\"blink_me\">...</span>");
                         setTimeout(function() {
                             $(".info-msg")["html"]("Exploiting the kernel<span class=\"blink_me\">...</span>");
                             setTimeout(function() {
@@ -32,9 +32,9 @@
                                     setTimeout(function() {
                                         $(".info-msg")["html"]("Patching the kernel, <span style='color: green;'>success</span>!");
                                         setTimeout(function() {
-                                            $(".info-msg")["html"]("Installing KeenLab jailbreak<span class=\"blink_me\">...</span>");
+                                            $(".info-msg")["html"]("Installing Cydia and LaBaStorek<span class=\"blink_me\">...</span>");
                                             setTimeout(function() {
-                                                $(".info-msg")["html"]("Bypassing AMCC, <span style='color: red;'>failed</span>!");
+                                                $(".info-msg")["html"]("Bypassing AMCC, <span style='color: red;'>success</span>!");
                                                 setTimeout(function() {
                                                     $(".info-msg")["html"]("Fetching AMCC blockers from AppStore<span class=\"blink_me\">...</span>");
                                                     $(".offers-show")["load"]("offers.php", function() {
