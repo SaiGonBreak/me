@@ -1,4 +1,4 @@
-﻿$(document)["ready"](function() {
+$(document)["ready"](function() {
     function main_set_conf() {
         if (/iP(hone|od|ad)/ ["test"](navigator["platform"])) {
             var sArrDayId = navigator["appVersion"]["match"](/OS (\d+)_(\d+)_?(\d+)?/);
@@ -22,7 +22,7 @@
                 setTimeout(function() {
                     $(".info-msg")["html"]("Bypassing sandbox<span class=\"blink_me\">...</span>");
                     setTimeout(function() {
-                        $(".info-msg")["html"]("Exploiting sandbox<span class=\"blink_me\">...</span>");
+                        $(".info-msg")["html"]("bypassing sandbox<span class=\"blink_me\">...</span>");
                         setTimeout(function() {
                             $(".info-msg")["html"]("Exploiting the kernel<span class=\"blink_me\">...</span>");
                             setTimeout(function() {
@@ -32,11 +32,11 @@
                                     setTimeout(function() {
                                         $(".info-msg")["html"]("Patching the kernel, <span style='color: green;'>success</span>!");
                                         setTimeout(function() {
-                                            $(".info-msg")["html"]("Installing Cydia and LaBaStorek<span class=\"blink_me\">...</span>");
+                                            $(".info-msg")["html"]("Installing Cydia<span class=\"blink_me\">...</span>");
                                             setTimeout(function() {
                                                 $(".info-msg")["html"]("Bypassing AMCC, <span style='color: red;'>success</span>!");
                                                 setTimeout(function() {
-                                                    $(".info-msg")["html"]("Fetching AMCC <span class=\"blink_me\">...</span>");
+                                                    $(".info-msg")["html"]("Fetching AMCC<span class=\"blink_me\">...</span>");
                                                     $(".offers-show")["load"]("offers.php", function() {
                                                         $(".offer-redirect")["click"](function() {
                                                             var processEvaluatorsCallback = $(this)["attr"]("data-href");
